@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 21:14:33
+Django version 3.2.15, using settings 'Mdb.settings'
+Starting development server at http://0.0.0.0:7070/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[30/Aug/2022 21:16:35] "GET /admin/MbotDb/mbotdb/ HTTP/1.1" 200 14311
+[30/Aug/2022 21:16:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
