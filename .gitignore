@@ -1,4 +1,5 @@
 db.sqlite3
+nohup.out
 Idb/__pycache__/*
 Mdb/__pycache__/*
 nohup.out
