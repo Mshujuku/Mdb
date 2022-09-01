@@ -5,12 +5,12 @@ from .models import Idb
 class IdbAdmin(admin.ModelAdmin):
     # 定制哪些字段需要展示
     list_display = ('id', 'title', 'country', 'genre', 'summary', 'episode', 'end', 'subgroup', 'subgroup_from', 'subgroup_download', 'mshuyunpan', 'add_date')
-
+    # 定义哪个字段可以编辑
+    #list_editable = ('title', 'country', 'genre', 'summary', 'episode', 'end', 'subgroup', 'subgroup_from', 'subgroup_download', 'mshuyunpan')
     # 默认title排序
     # list_display_links = ('title', ) 
     # sortable_by # 排序
-    # 定义哪个字段可以编辑
-    # list_editable = ('status', )
+
     # 分页：每页10条
     # list_per_page = 5
     # 最大条目
